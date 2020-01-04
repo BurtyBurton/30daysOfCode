@@ -10,7 +10,7 @@ for i in range(0, num):
     phone_book[name] = phone
 
 for j in range(0, num):
-    name = str(i nput())
+    name = str(input())
 
     if name in phone_book:
         phone = phone_book[name]
